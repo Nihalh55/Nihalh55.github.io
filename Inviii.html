@@ -69,16 +69,16 @@
             from {opacity: 0;}
             to {opacity:1 ;}
         }
-        
+
     </style>
 
     <script>
 
-    // When the user clicks on <div>, open the popup
-function myFunction() {
-var popup = document.getElementById("myPopup");
-popup.classList.toggle("show");
-}
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
         // Set the date we're counting down to
         var countDownDate = new Date("Apr 8, 2018 17:30:00").getTime();
 
@@ -112,23 +112,26 @@ popup.classList.toggle("show");
 </head>
 <body>
 
-    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white w3-mobile">
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white w3-sepia-min">
         <div class="w3-display-topleft w3-padding-large w3-xlarge">
             Logo
         </div>
-    </div>
-    <div class = "w3-card-2 w3-grey w3-display-middle w3-opacity-min w3-mobile">
-        </br></br><h1 class="w3-xxxlarge w3-animate-top w3-grayscale-max"><center>      Roto Farewell Invitation        </center></h1></br>
-        <div class="w3-container">
-            <footer>
-                <hr class="w3-border-white" style="margin:auto;width:70%"></br>
-                <p class="w3-xlarge w3-center w3-wide" id ="count_downer"></p>
-            </footer>
-        </div>
-        <div class="popup" onclick="myFunction()">Click me!
-            <span class="popuptext" id="myPopup">Popup text...</span>
+        <div class = "w3-display-bottommiddle w3-padding-large w3-xlarge">
+            <div class="popup" onclick="myFunction()" style = "w3-text-black">Click me!
+                <span class="popuptext" id="myPopup">
+                    
+
+
+                </span>
+            </div>
         </div>
     </div>
+    <div class = "w3-card-2 w3-pale-yellow w3-display-middle w3-opacity-min">
+    </br><h1 class="w3-xxxlarge w3-animate-top w3-text-black w3-text-bold w3-sepia-max"><center>      Roto Farewell Invitation        </center></h1></br>
+        <hr class="w3-border-black" style="margin:auto;width:70%"></br>
+        <p class="w3-xlarge w3-center w3-wide" id ="count_downer"></p>
+    </div>
+
 
 </body>
 </html>

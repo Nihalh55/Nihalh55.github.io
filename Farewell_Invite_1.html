@@ -74,11 +74,6 @@
 
     <script>
 
-        // When the user clicks on <div>, open the popup
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
         // Set the date we're counting down to
         var countDownDate = new Date("Apr 8, 2018 17:30:00").getTime();
 
@@ -113,25 +108,40 @@
 <body>
 
     <div class="bgimg w3-display-container w3-animate-opacity w3-text-white w3-sepia-min">
-        <div class="w3-display-topleft w3-padding-large w3-xlarge">
-            Logo
-        </div>
-        <div class = "w3-display-bottommiddle w3-padding-large w3-xlarge">
-            <div class="popup" onclick="myFunction()" style = "w3-text-black">Click me!
-                <span class="popuptext" id="myPopup">
-                    
-
-
-                </span>
-            </div>
+        <div class="w3-display-topleft w3-padding-large w3-xlarge w3-opacity-min">
+             <img src="RotoLogo.png" alt="Roto logo" height="100" width="100">
         </div>
     </div>
-    <div class = "w3-card-2 w3-pale-yellow w3-display-middle w3-opacity-min">
-    </br><h1 class="w3-xxxlarge w3-animate-top w3-text-black w3-text-bold w3-sepia-max"><center>      Roto Farewell Invitation        </center></h1></br>
-        <hr class="w3-border-black" style="margin:auto;width:70%"></br>
-        <p class="w3-xlarge w3-center w3-wide" id ="count_downer"></p>
+    <div class ="w3-display-middle">
+        <div class = "w3-card-4 w3-pale-yellow w3-opacity-min">
+            </br>
+            <h1 class="w3-xxxlarge w3-animate-top w3-text-black w3-text-bold w3-sepia-max"><center>      Roto Farewell Invitation        </center></h1></br>
+            <hr class="w3-border-black" style="margin:auto;width:70%"></br>
+            <p class="w3-xlarge w3-center w3-wide" id ="count_downer"></p>
+        </div>
+        <div class="w3-card-2 w3-light-grey w3-center" style="width:100%">
+            </br>
+            <h3 style="font-family:Times New Roman; font-size: 50px; color:green;"><center>INVITATION</center></h2>
+            <p style="font-family:Times New Roman;">
+            Goodbye, a word filled with so much of emotions, a word with so much of weight, a word so hard to utter.<br>
+            It's time to cherish all those moments that we had, to remember all those jokes we cracked<br>
+            And to just walk along the memory lane with all of us, together, as one.<br>
+            But every journey has an end, and we are going to make sure your end is as magical as it can get.<br>
+            Want to feel as special as Leonardo DiCaprio after winning the Oscars? dont worry, we got your back<br>
+            Be ready to be taken through the Gateway of happiness, mixed emeotions, laughter and memories.<br>
+            Be ready to shed a few tears (you better shed some tears, we put a lot of effort into this :D )<br>
+            Be ready to feel special.<br><br><br>
+            Now for the sake of formality,<br>
+                    We coordially invite you to the Rotract Farewell Ceremony which will be held on the<br>
+                        8th of April, Sunday at 5:30PM. Please do come. Venue and theme are kinda<br>
+                                    hidden in the above message :). Find it.<br>
+            </p>
+            </br>
+        </div>
     </div>
-
+    <div class = "w3-display-left w3-padding-large">
+        <a href="https://www.google.com"><button class="w3-button w3-circle w3-teal">RSVP</button></a>
+    </div>
 
 </body>
 </html>
